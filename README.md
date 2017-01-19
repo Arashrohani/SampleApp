@@ -1,1 +1,1 @@
-# SampleApp
+# Sample Architecture (ASP.NET Core, Entity Framework Core, Angular 2.0)
