@@ -1,0 +1,5 @@
+﻿This is the glue between Services and API
+Usually there will be one class for each service class, or it can be one per screen
+    basically front-end based, or backend based.
+
+

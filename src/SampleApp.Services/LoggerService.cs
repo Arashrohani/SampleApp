@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace SampleApp.Services
 {
-    public interface IService
+    public class LoggerService
     {
     }
 }
