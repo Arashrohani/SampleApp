@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace SampleApp.Repository
+namespace SampleApp.Core.Interfaces.Data
 {
     public interface IRepository
     {

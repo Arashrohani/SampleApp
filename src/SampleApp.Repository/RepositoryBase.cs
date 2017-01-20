@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using SampleApp.Core.Entities;
+using SampleApp.Core.Interfaces.Data;
 
 namespace SampleApp.Repository
 {
