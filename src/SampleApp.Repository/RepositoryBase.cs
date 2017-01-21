@@ -77,5 +77,15 @@ namespace SampleApp.Repository
             await _context.SaveChangesAsync();
             return entity;
         }
+
+        public async virtual Task<List<T>> ExecuteQuery(string sql, params object[] parameters)
+        {
+            return await this.DbSet.FromSql<T>(sql, parameters).ToListAsync<T>();
+        }
+
+        public async virtual Task<int> ExecuteNonQuery(string sql, params object[] parameters)
+        {
+            return await _context.Database.ExecuteSqlCommandAsync(sql, parameters: parameters);
+        }
     }
 }
