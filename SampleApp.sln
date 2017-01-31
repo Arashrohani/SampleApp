@@ -22,6 +22,26 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleApp.Web.Core", "src\S
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleApp.Business", "src\SampleApp.Business\SampleApp.Business.xproj", "{EA7855BE-AC2A-4D24-9D92-C95CF74E90C9}"
 EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NG2.UI", "NG2.UI\", "{C853A132-BAD5-4F62-AC72-D1E7783F8E78}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_18072"
+		Debug.AspNetCompiler.PhysicalPath = "NG2.UI\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_18072\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_18072"
+		Release.AspNetCompiler.PhysicalPath = "NG2.UI\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_18072\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "18072"
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +72,10 @@ Global
 		{EA7855BE-AC2A-4D24-9D92-C95CF74E90C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EA7855BE-AC2A-4D24-9D92-C95CF74E90C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EA7855BE-AC2A-4D24-9D92-C95CF74E90C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C853A132-BAD5-4F62-AC72-D1E7783F8E78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C853A132-BAD5-4F62-AC72-D1E7783F8E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C853A132-BAD5-4F62-AC72-D1E7783F8E78}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{C853A132-BAD5-4F62-AC72-D1E7783F8E78}.Release|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -63,5 +87,6 @@ Global
 		{1695EFBC-D6B0-4CE1-8BCE-59B07522BF7E} = {BA414D12-2764-4979-B755-35F01453C5E6}
 		{F64F08C7-BF9F-4ED9-8580-7644F38D2F8B} = {BA414D12-2764-4979-B755-35F01453C5E6}
 		{EA7855BE-AC2A-4D24-9D92-C95CF74E90C9} = {BA414D12-2764-4979-B755-35F01453C5E6}
+		{C853A132-BAD5-4F62-AC72-D1E7783F8E78} = {BA414D12-2764-4979-B755-35F01453C5E6}
 	EndGlobalSection
 EndGlobal

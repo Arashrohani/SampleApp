@@ -1,0 +1,16 @@
+    <h2>Dur - Andal</h2>
+    <div>
+   
+<template ngFor let-item [ngForOf]="extensions">
+<fieldset>
+<label>Extension Number</label><input type="text" required [(ngModel)]="item.Extension" ngControl="extension" ngControl="extension" /> 
+<br/>
+<label>Password</label><input type="text" required [(ngModel)]="item.Passowrd" ngControl="password" ngControl="password" />
+<br />
+<label>Voicemail Password</label><input type="text" required [(ngModel)]="item.VMPassowrd" ngControl="vmpassword" ngControl="vmpassword" />
+<br />
+</fieldset>
+
+</template>
+
+ </div>
