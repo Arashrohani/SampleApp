@@ -40,7 +40,10 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "NG2.UI", "NG2.UI\", "{C853A
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "18072"
+		SlnRelativePath = "NG2.UI\"
 	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleApp.IdentityServer", "src\SampleApp.IdentityServer\SampleApp.IdentityServer.xproj", "{FDCE3860-2233-415F-AB44-E4C4CB843FD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -76,6 +79,10 @@ Global
 		{C853A132-BAD5-4F62-AC72-D1E7783F8E78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C853A132-BAD5-4F62-AC72-D1E7783F8E78}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{C853A132-BAD5-4F62-AC72-D1E7783F8E78}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{FDCE3860-2233-415F-AB44-E4C4CB843FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDCE3860-2233-415F-AB44-E4C4CB843FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDCE3860-2233-415F-AB44-E4C4CB843FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDCE3860-2233-415F-AB44-E4C4CB843FD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -88,5 +95,6 @@ Global
 		{F64F08C7-BF9F-4ED9-8580-7644F38D2F8B} = {BA414D12-2764-4979-B755-35F01453C5E6}
 		{EA7855BE-AC2A-4D24-9D92-C95CF74E90C9} = {BA414D12-2764-4979-B755-35F01453C5E6}
 		{C853A132-BAD5-4F62-AC72-D1E7783F8E78} = {BA414D12-2764-4979-B755-35F01453C5E6}
+		{FDCE3860-2233-415F-AB44-E4C4CB843FD8} = {BA414D12-2764-4979-B755-35F01453C5E6}
 	EndGlobalSection
 EndGlobal
