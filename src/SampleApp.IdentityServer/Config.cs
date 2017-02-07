@@ -27,13 +27,10 @@ namespace SampleApp.IdentityServer
             };
         }
 
-        // clients want to access resources (aka scopes)
         public static IEnumerable<Client> GetClients()
         {
-            // client credentials client
             return new List<Client>
             {
-
                  new Client
                 {
                     ClientId = "ng2ui",
