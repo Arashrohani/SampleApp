@@ -1,6 +1,6 @@
 ﻿namespace SampleApp.Core.Entities
 {
-    public class Address
+    public class Address : BaseEntity
     {
         public string StreetNumber { get; set; }
         public string StreetName { get; set; }
