@@ -1,0 +1,33 @@
+import { BrowserModule } from '@angular/platform-browser';
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { HttpModule } from '@angular/http';
+import { RouterModule } from '@angular/router';
+import { AppRoutingModule }     from './app-routing.module';
+
+import { AppComponent } from './app.component';
+
+import { EmployeeComponent } from './employee/employee.component';
+import { EmployeeService } from './employee/employee.service';
+
+import { IdentityComponent } from './identity/identity.component';
+import {HomeComponent} from './home/home.component';
+
+@NgModule({
+  imports: [
+    BrowserModule,
+    FormsModule,
+    HttpModule,
+    AppRoutingModule
+    
+  ],
+  declarations: [
+    AppComponent,
+    IdentityComponent,
+    EmployeeComponent,
+    HomeComponent
+  ],
+  providers: [EmployeeService],
+  bootstrap: [AppComponent]
+})
+export class AppModule { }

@@ -1,0 +1,20 @@
+    <h2>Dur - Andal</h2>
+    <div>
+   
+   <div *ngFor="let emp of employees">
+emp: {{emp.firstName}}
+
+</div>
+<template ngFor let-item [ngForOf]="extensions">
+<fieldset>
+<label>Extension Number</label><input type="text" required [(ngModel)]="item.firstName" ngControl="firstName" ngControl="firstName" /> 
+<br/>
+</fieldset>
+
+</template>
+<label>Password</label><input type="text" required [(ngModel)]="item.Passowrd" ngControl="password" ngControl="password" />
+<br />
+<label>Voicemail Password</label><input type="text" required [(ngModel)]="item.VMPassowrd" ngControl="vmpassword" ngControl="vmpassword" />
+<br />
+
+ </div>
